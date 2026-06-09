@@ -50,3 +50,10 @@ curl -X DELETE http://127.0.0.1:8000/items/1
 ```
 
 Data is stored in memory and resets when the server restarts.
+
+## Tests
+
+```bash
+source .venv/bin/activate
+pytest -v
+```
